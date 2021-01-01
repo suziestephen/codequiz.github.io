@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-brand:hover {
+    color: rgb(2, 212, 202);
+}
+
+.nav-item {
+    font-size: 1.25rem;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+button {
+    font-size: 1.25rem;
+    padding: 10px;
+    margin: 5px;
+    border: solid 1px rgb(30, 30, 182);
+    border-radius: 30px;
+}
+
+#submit {
+    margin: 5px;
+    border: solid 1px rgb(30, 30, 182);
+}
+
+button:hover, #submit:hover {
+    background-color: grey;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;    
+}
+
+.quiz-answer {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.quiz-answer:hover {
+    background-color: rgb(8, 45, 126);
+    color: black;
+}
+
+.highscore {
+    background-color: rgb(109, 22, 37);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
